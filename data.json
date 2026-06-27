@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-06-27",
+  "title": "Task Glance",
+  "subtitle": "今日の重点タスクを見るミニダッシュボード",
+  "overall": {
+    "project_count": 15,
+    "progress": 41,
+    "current_focus": "PJ14-022 公開用MVPを作成する"
+  },
+  "today": {
+    "project_id": "PJ-14",
+    "title": "公開用MVPを作成する",
+    "description": "外部公開の前に、スマホで見やすい公開用ファイルセットをローカルで確認できる状態にする。",
+    "status": "READY"
+  },
+  "goals": [
+    {
+      "label": "初期成果",
+      "status": "active",
+      "progress": 42,
+      "note": "小さく公開できる入口を整える"
+    },
+    {
+      "label": "収益化目標",
+      "status": "upcoming",
+      "progress": 20,
+      "note": "投稿・分析・改善を回す"
+    },
+    {
+      "label": "実績整理",
+      "status": "active",
+      "progress": 36,
+      "note": "開発記録を見せられる形へ整える"
+    }
+  ],
+  "projects": [
+    {
+      "id": "PJ-14",
+      "name": "Task Glance",
+      "status": "READY",
+      "progress": 99,
+      "next": "公開用MVP確認"
+    },
+    {
+      "id": "PJ-04",
+      "name": "トレンド分析",
+      "status": "PLANNED",
+      "progress": 90,
+      "next": "クラウド移行"
+    },
+    {
+      "id": "PJ-08",
+      "name": "収益導線",
+      "status": "WAITING",
+      "progress": 88,
+      "next": "公開後レビュー"
+    },
+    {
+      "id": "PJ-05",
+      "name": "導線分析",
+      "status": "READY",
+      "progress": 100,
+      "next": "半自動化検討"
+    },
+    {
+      "id": "PJ-12",
+      "name": "自動化基盤",
+      "status": "REVIEW",
+      "progress": 50,
+      "next": "手動実行確認"
+    }
+  ],
+  "timeline": [
+    {
+      "project": "PJ14",
+      "label": "公開用MVP",
+      "from": "今日",
+      "to": "ローカル確認",
+      "progress": 99,
+      "state": "active"
+    },
+    {
+      "project": "PJ14",
+      "label": "公開前安全確認",
+      "from": "次",
+      "to": "Owner承認前",
+      "progress": 70,
+      "state": "ready"
+    },
+    {
+      "project": "PJ12",
+      "label": "クラウド実行確認",
+      "from": "後続",
+      "to": "手動実行",
+      "progress": 50,
+      "state": "review"
+    }
+  ]
+}
